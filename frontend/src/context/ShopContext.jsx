@@ -9,7 +9,7 @@ const ShopContextProvider = (props) => {
 
     const currency = '$';
     const delivery_fee = 10;
-    const backendUrl = import.meta.env.VITE_BACKEND_URL;
+    const backendUrl = "https://everly-2.onrender.com";
 
     // Initialize state from localStorage or set default values
     const [search, setSearch] = useState(() => localStorage.getItem('search') || '');
